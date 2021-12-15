@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    #img66 {
+      background: url('./k.png')center/cover;
+      min-height: 350px;
+    }
+
+    .aaa:nth-child(1) {
+      background: url(./corner.png);
+      width: 250px;
+      height: 250px;
+      right: 25px;
+      top: 25px;
+      transform: rotate(180deg);
+      filter: drop-shadow(16px -16px 16px rgba(0, 0, 0, 0.06));
+    }
+
+    .aaa:last-child {
+      background: url(./corner.png);
+      width: 250px;
+      height: 250px;
+      left: 25px;
+      bottom: 25px;
+      transform: rotate(0deg);
+      filter: drop-shadow(16px -16px 16px rgba(0, 0, 0, 0.06));
+    }
+  </style>
+</head>
+
+<body>
+  <div class="position-relative p-md-5  mx-md-auto ">
+    <div class="position-absolute d-none d-md-block aaa"></div>
+    <div class="row m-md-5  shadow ">
+      <div id="img66" class="col-12 col-md-4"></div>
+      <div class="col-12 col-md-8">
+        <div class="ms-5 ">
+          <p class="mt-5 ms-5 h4 fw-bold">Front-end Designer</p>
+          <h1 class=" ms-5 display-1  fw-bold">Eason Chan</h1>
+          <p class=" ms-5 h1" style="letter-spacing: 7px;">泰山職訓局</p>
+          <p class="ms-5 mt-5 ">
+            住址:24302新北市泰山區貴子里致遠新村55之1號<br>
+            電話:02-2901-8274<br>
+            E-Mail:Eason@example.cc<br>
+            網站:http://www.eason.example.cc/
+
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="position-absolute d-none d-md-block aaa"></div>
+  </div>
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
